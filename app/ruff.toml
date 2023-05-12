@@ -1,0 +1,15 @@
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "C",  # flake8-comprehensions
+    "B",  # flake8-bugbear
+    "D"
+]
+
+ignore = [
+    "D203",
+    "D213",
+    "E501", # Line too long
+    "D417" # Missing arguments in the description, pydocstyle - somehow broken
+]

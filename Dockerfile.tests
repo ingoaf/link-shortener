@@ -1,0 +1,7 @@
+FROM python:3.11.3-slim AS build-env
+WORKDIR /project
+COPY requirements-test.txt /project
+RUN pip install -r requirements-test.txt
+COPY app /project/app
+COPY tests /project/tests
+CMD ["pytest"]
