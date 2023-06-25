@@ -72,8 +72,7 @@ This section describes some architectural choices and mentions shortcuts.
 
 ### Shortcuts
 
-- This application does not include logging and authentication/authorization. (But this is also just a test, right ;) Of course, in actual production I would implement both. )
-- Docstrings were written by ChatGPT (only the docstrings, the code is mine)
+- This application does not include logging and authentication/authorization.
 - The encoding algorithm is not very fast, but can be improved by using extra space for quotient/remainder
 - `check_encoding_exists` is an optional parameter, as looking for existing values is a slow operation
 
