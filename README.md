@@ -1,3 +1,5 @@
+[![CodeQL](https://github.com/ingoaf/link-shortener/workflows/CodeQL/badge.svg)](https://github.com/ingoaf/link-shortener/actions/workflows/github-code-scanning/codeql?query=workflow%3ACodeQL)
+
 # Link Shortener
 
 This is a link shortener application.
